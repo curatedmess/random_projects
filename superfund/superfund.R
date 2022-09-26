@@ -52,7 +52,7 @@ df %>%
   annotate("segment", x = -122, xend = -101, y = 18, yend = 18, color = "#000000", size = 0.24) +
   annotate(geom = "text", x = -122, y = 21, label = "Comprehensive Environmental Response,\nCompensation, and Liability Act of 1980", hjust = "left", vjust= "top", family = font2, size = 2.6, color = "#000000") +
   annotate("rect", xmin = -81.75, xmax = -73, ymin = 14, ymax = 15, fill = "#ffe36d", alpha = 0.9) +
-  annotate(geom = "text", x = -122, y = 17, label = "The Environmental Protection Agency (EPA) directs the investigation and cleanup of sites\ncontaminated with hazardous substances. As of 8.22.2022, there are 1,303 locations listed\non the National  Priorities List designated as the worst contaminated sites requiring long\nterm efforts to remediate.", hjust = "left", vjust= "top", family = font2, size = 3, color = "#000000") +
+  annotate(geom = "text", x = -122, y = 17, label = "The Environmental Protection Agency (EPA) directs the investigation and clean up of sites\ncontaminated with hazardous substances. As of 8.22.2022, there are 1,303 locations listed\non the National  Priorities List designated as the worst contaminated sites requiring long\nterm efforts to remediate.", hjust = "left", vjust= "top", family = font2, size = 3, color = "#000000") +
   scale_x_continuous(expand = c(0,0)) +
   scale_y_continuous(expand = c(0,0), limits = c(10, 54)) +
   coord_map(clip="off") +
