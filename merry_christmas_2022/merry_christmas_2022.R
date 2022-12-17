@@ -52,7 +52,7 @@ tree <- ggplot() +
   scale_y_continuous(limits = c(780, -5), trans = scales::reverse_trans()) +
   scale_x_continuous(limits = c(-60, 580)) +
   annotate(geom = "text", x = 260, y = 745, label = "Merry Christmas", color = "#E6C797", family = font, size = 9, hjust = 0.5) +
-  annotate(geom = "text", x = 260, y = 778, label = "\n\nChristmas 2022 | Ryan Hart", color = "#F2F2F2", family = font2, size = 2.5, hjust = 0.5) +
+  annotate(geom = "text", x = 260, y = 778, label = "\n\nChristmas 2022 | Ryan Hart", color = "#F2F2F2", family = font2, size = 2, hjust = 0.5) +
   theme_void() +
   theme(legend.position = "none",
         plot.margin = unit(c(0, 0, 0.25, 0), "cm"),
