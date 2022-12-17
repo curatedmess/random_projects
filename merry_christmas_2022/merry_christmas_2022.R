@@ -63,7 +63,7 @@ tree <- ggplot() +
 animation <- tree + transition_states(group_num) + ease_aes("linear")
 
 # animate ----------------------------------------=------------------------
-animate(animation, width = 360, height = 432, res = 72, fps = 25, duration = 10, end_pause = 20)
+animate(animation, width = 500, height = 600, res = 100, fps = 25, duration = 10, end_pause = 20)
 
 # create gif --------------------------------------------------------------
 anim_save("merry_christmas_2022.gif")
