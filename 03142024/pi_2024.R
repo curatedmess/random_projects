@@ -18,6 +18,10 @@ showtext_opts(dpi = 320)
 
 options(scipen = 999)
 
+
+# use this as a starting point for the morse code -------------------------
+# https://stackoverflow.com/questions/70856576/r-creating-a-conversion-function-for-morse-code
+
 # create df of digits to morse code ---------------------------------------
 morse <- structure(list(
   character = c("0", "1", "2", "3", "4", "5", "6", "7", "8", "9"), 
